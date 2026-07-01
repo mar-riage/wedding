@@ -320,8 +320,8 @@ body {
   }
 
   .info-palette__circle {
-    width: 30px;
-    height: 30px;
+    width: 54px;
+    height: 54px;
     border-radius: 50%;
     display: inline-block;
     border: 1px solid #ccc;
