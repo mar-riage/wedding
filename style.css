@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fff;
-  color: #000;
+  color: #adbca5;
 }
 
 @font-face {
@@ -37,7 +37,7 @@ body {
 
             background: #fff;
 
-            color: #333;
+
 
             padding: 40px 20px;
 
@@ -320,8 +320,8 @@ body {
   }
 
   .info-palette__circle {
-    width: 54px;
-    height: 54px;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
     display: inline-block;
     border: 1px solid #ccc;
