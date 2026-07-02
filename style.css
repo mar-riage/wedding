@@ -202,6 +202,9 @@ body {
   }
   .main-content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .image img {
     width: 100%;
@@ -210,16 +213,26 @@ body {
     margin: auto;
   }
   .names {
-    position: relative;
     font-family: 'Playfair Display', serif;
     font-style: italic;
     text-align: center;
-    font-size: 32px;
-    padding: 20px;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    font-size: 28px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
   }
   .ampersand {
     font-family: 'Great Vibes', cursive;
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
   }
   .content {
     margin-top: 30px;
@@ -239,17 +252,14 @@ body {
   }
 
   .top-right {
-    position: absolute;
-    top: 0;
-    left: 70px;
-    margin: 0;
+    align-self: flex-start;
+    margin: 10px;
+    padding-left: 60px;
   }
 
   .bottom-left {
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    right: -10px;
+    align-self: flex-end;
+    margin: 10px;
   }
 
   .invitation {
